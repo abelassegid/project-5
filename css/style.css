@@ -20,6 +20,9 @@ html {
   justify-content: center;
   align-items: center; }
 
+.hiden {
+  display: none; }
+
 @media (max-width: 768px) {
   img {
     width: 100%;

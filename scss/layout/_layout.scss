@@ -1,12 +1,12 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5rem;
 }
 .hiden{
     display: none;
@@ -17,14 +17,25 @@ img{
     margin: 0 auto;
     border-radius: 10px;
 }
-
+.input{
+    width: 60%;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-color: lightgray;
+    outline: 0;
+    border: 0;
+    border: 2px #d9d9d9 solid;
+}
 @media (min-width:370px){
     main{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
         padding: 20px;
-       
+    }
+    .input{
+        width: 80%;
     }
 }
 @media (min-width:475px){
